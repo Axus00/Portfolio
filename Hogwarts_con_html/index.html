@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts</title>
+    <!--Script-->
+    <script src="/app.js" defer></script>
+    <!--Styles-->
+    <link rel="stylesheet" href="/css/styles.css" media="screen and (min-width: 425px)">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/assets/images/icons8-harry-potter-100.png" type="image/x-icon">
+</head>
+<body>
+    <img src="/assets/images/HogwartsLogo.png" alt="Hogwarts">
+    <audio autoplay src="/assets/y2mate.com - harry potter musica.mp3"></audio>
+    <div class="title">
+        <h1>Hogwarts</h1>
+    </div>
+    <div class="formulario">
+        <form id="form" onsubmit="Text">
+            <input id="name" type="text" placeholder="Ingrese su nombre">
+            <input id="age" type="number" placeholder="Ingrese su edad">
+            <input id="family" type="text" placeholder="Ingrese su familia">
+            <select id="linaje" type="text" placeholder="Ingrese su linaje">
+                <option value="mestizo">mestizo</option>
+                <option value="muggle">muggle</option>
+                <option value="sangre pura">sangre pura</option>
+            </select>
+            <select id="cualidad" type="text" placeholder="Cualidades separadas por una coma (,)">
+                <option value="valor, fuerza, audacia">valor, fuerza, audacia</option>
+                <option value="justicia, lealtad, paciencia">justicia, lealtad, paciencia</option>
+                <option value="creatividad, erudicion, inteligencia">creatividad, erudicion, inteligencia</option>
+                <option value="ambicion, determinacion, astucia">ambicion, determinacion, astucia</option>
+            </select>
+
+            <div class="botones">
+                <button onclick="show()">Consultar</button>
+                <button class="btn" type="reset">Borrar</button>
+            </div>
+        </form>
+
+        <div id="showInformation">
+                
+        </div>
+
+    </div>
+</body>
+</html>

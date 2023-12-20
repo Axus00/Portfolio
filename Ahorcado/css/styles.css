@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+}
+/*Estilos*/
+.hidden {
+    color: transparent;
+}
+
+body {
+    background-color: blueviolet;
+    color: #fff;
+    font-family: 'SF Pixelate', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#startbutton:hover {
+    cursor: pointer;
+    background-color: lightgreen;
+    transition: 0.5s ease;
+}
+#startButton {
+    background-color: greenyellow;
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-family: 'SF Pixelate', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+#wordContainer {
+    margin-top: 20px;
+}
+.letter {
+    margin: 0 7px;
+    position: relative;
+    text-align: center;
+}
+.letter::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    min-width: 1px;
+}

@@ -1,0 +1,98 @@
+/*Estilos generales*/
+@font-face {
+    font-family: Harry Potter;
+    src: url(../assets/fonts/HARRYP__.TTF);
+}
+:root {
+    font-family: Harry Potter;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    box-sizing: border-box;
+}
+/*Estilos*/
+body {
+    background: url(../assets/images/Hogwarts.jpg) no-repeat center/cover;
+}
+/*Título*/
+.title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+h1 {
+    font-family: Harry Potter;
+    font-size: 100px;
+    color: #fff;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 8px #fff,
+    0 0 15px #fff,
+    0 0 30px #0fa,
+    0 0 60px #0fa,
+    0 0 70px #0fa,
+    0 0 80px #0fa,
+    0 0 120px #0fa;
+    color: white;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 5px greenyellow;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 270px;
+    margin-top: 250px;
+    align-items: center;
+}
+input {
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px;
+}
+input::placeholder {
+    text-align: center;
+}
+select {
+    width: 254px;
+    height: 29px;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px;
+}
+/*Botones*/
+button {
+    width: 90px;
+    border-radius: 3px;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+.btn {
+    width: 90px;
+}
+
+/*Div vacío*/
+#showInformation{
+    margin-top: 50px;
+    font-size: 30px;
+    color: yellow;
+}
+
+/*Logo*/
+img {
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}

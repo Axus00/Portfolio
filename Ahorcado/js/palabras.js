@@ -1,0 +1,1 @@
+const words = ['Compañerismo', 'Habilidades', 'Desarrollo', 'Javascript', 'Html', 'Css', 'Python', 'Ingles', 'Review', 'DOM'];
