@@ -1,0 +1,90 @@
+/*Estilos generales*/
+:root {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    box-sizing: border-box;
+}
+body {
+    background-color: antiquewhite;
+}
+/*Estilos del logo*/
+.logo {
+    margin-left: 250px;
+    width: 400px;
+    height: 400px;
+}
+.card {
+    margin-top: 10px;
+    padding: 20px;
+}
+/*Selectores*/
+.selectores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.select1 {
+    width: 500px;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 50px;
+}
+.form-select {
+    margin: 10px;
+    cursor: pointer;
+}
+.contenedor {
+    margin-bottom: 15px;
+}
+/*noche o día*/
+.noche {
+    background-color: #000;
+}
+.dia {
+    background-color: #000;
+}
+/*temas*/
+/*tema oscuro*/
+.theme-dark{
+    background-color: #333;
+}
+.theme-dark .card {
+    background-color: cadetblue;
+    color: white;
+}
+.theme-dark button{
+    background-color: gray;
+    color: black;
+}
+.theme-dark button:hover {
+    box-shadow: 2px 2px 2px red;
+}
+/*tema claro*/
+.theme-light{
+    background-color: white;
+}
+.theme-light button:hover {
+    box-shadow: 2px 2px 2px red;
+}
+/*tercer tema*/
+.theme-pink {
+    background-color: pink;
+}
+.theme-pink .card {
+    background-color: deeppink;
+    color: white;
+    
+}
+.theme-pink button {
+    background-color: cornflowerblue
+    ;
+    color: black;
+}
+.theme-pink button:hover {
+    box-shadow: 2px 2px 2px red;
+}
