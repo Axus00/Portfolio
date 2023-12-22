@@ -3,6 +3,9 @@ function iniciarSesion(){
 //Se obtiene datos
 let correo = document.getElementById('correo');
 let password = document.getElementById('contraseña');
+/* let genero = document.getElementById('select').value; */
+
+
 
 
 //objeto con usuarios
@@ -10,23 +13,39 @@ const objetoUsuarios = [
     {
         nombre: 'fernando',
         correo: 'correo@correo.com',
-        password: 'Fernando2000.'
+        password: 'Fernando2000.',
+        genero: 'masculino'
     },
     {
         nombre: 'alberto',
         correo: 'alberto23@gmail.com',
-        password: '12345678'
+        password: '12345678',
+        genero: 'masculino'
     },
     {
         nombre: 'juana',
         correo: 'juanalamejor@gmail.com',
-        password: 'Colombia2000'
+        password: 'Colombia2000',
+        genero: 'femenino'
     },
     {
         nombre: 'roberto',
         correo: 'medellin12@gmail.com',
-        password: 'aguacatefresco'
+        password: 'aguacatefresco',
+        genero: 'masculino'
     },
+    {
+        nombre: 'mariana',
+        correo: 'mariana22@gmail.com',
+        password: 'marianalamejor',
+        genero: 'femenino'
+    },
+    {
+        nombre: 'juliana',
+        correo: 'julimor@gmail.com',
+        password: 'j2022',
+        genero: 'femenino'
+    }
 
 ];
 
@@ -37,6 +56,7 @@ for (const objetoUsuario of objetoUsuarios) {
         console.log("funciona");
         window.location.href = "respaldo.html";
         sessionStorage.setItem('nombre', objetoUsuario.nombre.toUpperCase());
+        sessionStorage.setItem('genero', objetoUsuario.genero);
         return
     }
     //validación is-valid
@@ -51,7 +71,14 @@ for (const objetoUsuario of objetoUsuarios) {
         correo.classList.add('is-invalid');
         correo.classList.remove('is-valid');
     };
+
+    
 };
+
+};
+
+
+
 
 /* objetoUsuarios.forEach(function (objetoUsuario) {
     if(correo.value === objetoUsuario.correo && password.value === objetoUsuario.password){
@@ -63,7 +90,7 @@ for (const objetoUsuario of objetoUsuarios) {
     return
 }); */
 
-};
+
 /* document.querySelector('button').addEventListener('click', iniciarSesion()); */
 
 
