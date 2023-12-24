@@ -1,0 +1,107 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+h1 {
+    font-family: Pacifico, cursive;
+    font-size: 500;
+    color: white;
+    padding-left: 5px;
+}
+h2 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 500;
+    color: white;
+}
+p {
+    color: white;
+    font-family: Ubuntu, sans-serif;
+    font-size: small;
+    width: 80%;
+}
+body {
+    background-color: black;
+}
+/*secion de iconos*/
+.iconos img {
+    color: white;
+    margin-top: 5px;
+}
+
+
+/*sección perfiles, historias*/
+.profiles img{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    margin-top: 5px 5px 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #FF6B6B;
+}
+
+/*seccion foto perfiles*/
+.img-semana img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: inline-start;
+}
+.espectador {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: inline-start;
+}
+.youtube {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: inline-start;
+}
+.colombia {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: inline-start;
+}
+
+/*sección noticias*/
+.section p{
+    margin-top: 2px;
+    font-size: 20px;
+}
+.section img{
+    max-width: 100%;
+    text-align: center;
+}
+img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+section {
+    padding-left: 30%;
+    padding-right: 15%;
+}

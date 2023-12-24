@@ -1,0 +1,84 @@
+:root {
+    background-color: azure;
+    font-family: Poppins, sans-serif;
+}
+
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/* Definir estilos para los títulos principales */
+h1 {
+    font-family: Helvetica, sans-serif
+}
+
+.contain  {
+    background-color: beige;
+    width: 100%;
+    margin: 0;
+}
+fieldset {
+    position: relative;
+}
+legend {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/*Cuerpo de la página*/
+body {
+    width: 100%;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
+
+p {
+    text-indent: 10px;
+    padding-top: 1rem;
+    padding-right: 0;
+    padding-bottom: 0.5rem;
+    padding-left: 0.25rem;
+}
+
+/*Botones*/
+.button {
+    color: black;
+    background-color: aqua;
+    cursor: pointer;
+    padding: 5px;
+    font: bold 0.6em sans-serif;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    transform: rotate(-1.5deg);
+}
+.button :hover{
+    transition: 0.5s ease;
+}
+/*Section nosotros*/
+section {
+    background-color: #9582c6;
+}
+
+/*Footer*/
+.footer {
+    background-color: #794dec;
+    padding: 100px;
+    width: 100%;
+}
+.footer a {
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+}
+.footer input {
+    background-color: green;
+
+}
