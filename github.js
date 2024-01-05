@@ -1,6 +1,6 @@
 //Solicitud de información para perfil de github
 const username = "Axus00";
-const token = "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";
+const token = "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";
 
 fetch(`https://api.github.com/users/${username}`, {
     headers: {
